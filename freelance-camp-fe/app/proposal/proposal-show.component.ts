@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Proposal } from './proposal';
 
@@ -9,7 +9,7 @@ import { Proposal } from './proposal';
 })
 export class ProposalShowComponent implements OnInit {
 	id: number;
-	routerId: any;
+	routeId: any;
 
 	constructor(
 		private route: ActivatedRoute
