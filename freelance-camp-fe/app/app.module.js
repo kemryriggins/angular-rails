@@ -13,7 +13,7 @@ var ng_bootstrap_1 = require("@ng-bootstrap/ng-bootstrap");
 var app_component_1 = require("./app.component");
 var homepage_component_1 = require("./homepage/homepage.component");
 var documents_component_1 = require("./documents/documents.component");
-var documents_service_1 = require("./documents/documents.service");
+var document_service_1 = require("./documents/document.service");
 var proposal_list_component_1 = require("./proposal/proposal-list.component");
 var proposal_new_component_1 = require("./proposal/proposal-new.component");
 var proposal_show_component_1 = require("./proposal/proposal-show.component");
@@ -38,7 +38,7 @@ var AppModule = /** @class */ (function () {
                 proposal_show_component_1.ProposalShowComponent
             ],
             providers: [
-                documents_service_1.DocumentService
+                document_service_1.DocumentService
             ],
             bootstrap: [
                 app_component_1.AppComponent
