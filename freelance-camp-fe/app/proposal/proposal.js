@@ -15,5 +15,5 @@ var Proposal = /** @class */ (function () {
     return Proposal;
 }());
 exports.Proposal = Proposal;
-// 15 'Abc Company', 'http://portfolio.jordanhudgens.com',  'Ruby on Rails', 150, 120, 15, 'kemry@devcamp.com'
+// 15 'Abc Company', 'https://kr-devcamp-portfolio.herokuapp.com/',  'Ruby on Rails', 150, 120, 15, 'rigginskemryy@gmail.com'
 //# sourceMappingURL=proposal.js.map
